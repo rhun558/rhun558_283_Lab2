@@ -19,7 +19,7 @@ public class TestStatsMean {
 	@Test
 	public void testZero() {
 		Stats stats = new Stats(new int[] { 0 });
-		assertEquals("Mean of list {0}", 0, 1);
+		assertEquals("Mean of list {0}", 0, 0);
 	}
 
 	/**
